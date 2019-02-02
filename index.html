@@ -12,27 +12,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
         </script>
         <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
-        <script src="/javascript/smoothState.js"></script>
+        <script src="javascript/smoothState.js"></script>
+        
         
         <title>Willis Tiao - UX/UI Design Portfolio</title>
     </head>
     <body>
     
-    
-<!-- PRELOADER -->
-<!--
-        <div id="loader-wrapper">
-            <div class="loader-section section-1"></div>
-            <div class="loader-section section-2"></div>
-            <div class="loader-section section-3"></div>
-            <div class="loader-section section-4"></div>
-            <div class="loader-section section-5"></div>
-            <div id="loader">
-                <h1>welcome</h1> 
-            </div>
-        </div>
--->
-
       
 <!-- HEADER -->
 <div id="main" class="m-scene">
@@ -78,9 +64,7 @@
 </div>
        
        
-       
-       
-       
+<!-- PROJECTS SECTION -->
 <div class="projects-wrap first" id="projects">
 
 <!--        AMAZON PROJECT BUBBLE           -->
@@ -93,15 +77,13 @@
                         <div class="bubble-text-2">A streamlined site for new and experienced customers to learn about the Amazon Echo product line.</div>
                     </div>
                 </div>
-            </div>          
-<!--            <img src="images/Artboard%201-8.png" class="amazon-mockup">-->
-          <div class="amazon-project-content" id="amazon_content"></div>
+            </div>  
  
  
  <!--        INMUSEUM PROJECT BUBBLE           --> 
            <div class="project-bubble-wrap-wrap">
-                <div class="project-bubble-right-wrap">
-                    <div class="project-bubble-right">
+                <div id="in-right" class="project-bubble-right-wrap project-right-wrap-museum">
+                    <div class="project-bubble-right project-inmuseum">
                             <div class="mus-img-wrap">
                                 <div class="bubble-text-wrap2">inMuseum
                                     <div class="bubble-text-22">An app concept that provides an interactive and authentic museum experience for the user.</div>
@@ -153,45 +135,9 @@
           </div>
        </div>
 -->
-       
-       
-        
-        
-        
-
-           
-           
-           
-<!--     ABOUT CONTENT           -->           
-<!--
-        <div class="about-wrapper" id="about">
-            <div class="about-content-wrap">
-                <img class="profile-img">
-                <div class="about-content">
-                    I studied my undergraduate degree at the University of California, Riverside in Mechanical Engineering. However, my passion for design led me to explore UX/UI design and Front End Dev. As a recent graduate from the UX/UI program at UC Irvine, I enjoy creating dynamic interfaces that are translatable into feasible design solutions.
-                    <div class="about-content-2">If I'm not coding, you can probably find me near a beach or jamming on my guitar. </div>
-                    <div class="about-content-2">Feel free to check me out on these other platforms or leave me a message. </div>
-                </div>    
-            </div>
-            <div class="social-wrap">
-               <div class="social-icons-wrap dribbble">
-                  <img src="images/icons/dribble_dark.png" class="social-icons dark">
-                  <img src="images/icons/dribbble_light.png" class="social-icons light">      
-               </div>
-               <div class="social-icons-wrap behance">
-                   <img src="images/icons/behance_dark.png" class="social-icons dark">
-                   <img src="images/icons/behance_light.png" class="social-icons light">       
-               </div>
-               <div class="social-icons-wrap linkedin">
-                   <img src="images/icons/linkedin_dark.png" class="social-icons dark">
-                   <img src="images/icons/linkedin_light.png" class="social-icons light">         
-               </div>
-            </div>
-        </div>
--->
         
       
-<!--        CONTACT CONTENT      -->
+<!--       ABOUT CONTENT      -->
         <div class="contact-wrapper" id="about">
             <div class="info-part-wrapper">
                 <div class="info-wrap">
@@ -221,6 +167,7 @@
                     </div>
                 </div>
             </div>  
+            
             <div class="contact-text-wrap">
                 Lets talk!
                 <div class="contact-text">Say hi or tell me about a cool project you want to work on. <div>Whatever it is, I'm excited to talk.</div><div class="email-bold">tiaowillis2@gmail.com</div></div>
@@ -239,155 +186,39 @@
                    <img src="images/icons/linkedin_light.png" class="social-icons light">  
                </div>
             </div>
-<!--
-            <form action="https://formspree.io/tiaowillis2@gmail.com"
-                  method="POST" class="form">
-                                <label for="name" class="form-label">Name *</label>
-                <input type="text" id="name" name="firstname" required>
-                
-                <label for="email" class="form-label">Email address *</label>
-                <input type="text" id="email" name="email" required>
-                
-                <label for="subject" class="form-label">Subject *</label>
-                <input type="text" id="subject" name="subject" required>
-                
-                <label for="message" class="form-label">Message *</label>
-                <textarea type="text" id="message" name="message" size="50" class="form-message"></textarea>
-                
-                <div class="finish-buttons">
-                    <input type="submit" name="sendMail" value="Send" class="submit-button" style="margin-right:20px;">
-                    <input type="reset" value="Reset" class="reset-button">    
-                </div>
-            </form>
--->
-<!--
-            <form action="contact.php" method="post" enctype="text/plain" class="form" role=form>
-               
-                <label for="name" class="form-label">Name *</label>
-                <input type="text" id="name" name="firstname" required>
-                
-                <label for="email" class="form-label">Email address *</label>
-                <input type="text" id="email" name="email" required>
-                
-                <label for="subject" class="form-label">Subject *</label>
-                <input type="text" id="subject" name="subject" required>
-                
-                <label for="message" class="form-label">Message *</label>
-                <textarea type="text" id="message" name="message" size="50" class="form-message"></textarea>
-                
-                <div class="finish-buttons">
-                    <input type="submit" name="sendMail" value="Send" class="submit-button" style="margin-right:20px;">
-                    <input type="reset" value="Reset" class="reset-button">    
-                </div>
-            </form>
--->
         </div>
         
     </div>     
     </body>
     
     
-    <script>
-
+    <script src="javascript/header.js" type="text/javascript"></script>
+    <script src="javascript/animate.js" type="text/javascript"></script>
+    <script>    
         
 
-// preloader script
-    $(document).ready(function(){
-
-        setTimeout(function(){
-            $('#loader-wrapper').addClass('loaded');    
-        },1000);
-//        setTimeout(function(){
-//            $('#loader-wrapper').removeClass('loaded');
-//        },1100);
-        setTimeout(function(){
-            $('body').addClass('intro-flow');});
-        setTimeout(function(){
-            $('#loader-wrapper').css({"display":"none"});
-        },2000);
-        setTimeout(function(){
-            $('body').removeClass('intro-flow');
-        },1000);
-        
-        setTimeout(function(){
-            $('.home-wrap').css({"opacity":"1"});
-        },2000);
-        setTimeout(function(){
-            $('.nav-item').css({"opacity":"1"});
-        },2000);
-        setTimeout(function(){
-            $('.intro-wrap').addClass('animated');
-        },2200);
-        setTimeout(function(){
-        $('.box1').addClass('animated');
-        },2500);
-        setTimeout(function(){
-            $('.box1-2').addClass('animated');
-        },2500);
-        setTimeout(function(){
-            $('.box2').addClass('animated');
-        },2650);
-        setTimeout(function(){
-            $('.box2-2').addClass('animated');
-        },2650);
-        setTimeout(function(){
-            $('.box3').addClass('animated');
-        },2800);
-        setTimeout(function(){
-            $('.box3-2').addClass('animated');
-        },2800);
-        setTimeout(function(){
-            $('.text-1').css({"opacity":"1"});
-        },1500);
-        setTimeout(function(){
-            $('.text-2').css({"opacity":"1"});
-        },1500);
-        setTimeout(function(){
-            $('.text-3').css({"opacity":"1"});
-        },1500);
-        setTimeout(function(){
-            $('.text-4').css({"opacity":"1"});
-        },1500);
-        setTimeout(function(){
-            $('.scroll-animation').addClass('animated');
-        },3000);
-        setTimeout(function(){
-            $('.scroll-box').addClass('animated');
-        },3000);
-        setTimeout(function(){
-            $('.scroll-box-filled').addClass('animated');
-        },3200);
-        setTimeout(function(){
-            $('.project-bubble').css({"opacity":"1"});
-        },3000);
-        setTimeout(function(){
-            $('.project-bubble2').css({"opacity":"1"});
-        },3050);
-    }); 
+// load script        
+$(document).ready(function(){
+    // Scroll Top Script
+    $("html,body").animate({scrollTop: 0});
+       
+    setTimeout(function(){
+        $('.home-wrap, .nav-item').css({"opacity":"1"});
+    },1000);
+    setTimeout(function(){
+        $('.banner').css({"opacity":"1"});
+    },500);
+});        
         
         
-    $(document).ready(function(){
-    
-    // MORE PROJECTS CLICK
-            $('.more-button').click(function(){
-                $('.more-move').addClass('clicked');
-                $('.more-projects').addClass('more');
-                $('.less-button').css({"opacity":"1"});
-                $('.more-button').css({"opacity":"0"});
-            }); 
-            $('.less-button').click(function(){
-                $('.more-move').removeClass('clicked');
-                $('.more-projects').removeClass('more');
-                $('.more-button').css({"opacity":"1"});
-                $('.less-button').css({"opacity":"0"});
-            }); 
-    });
 // project clicks
 $(document).ready(function(){
     
     // AMAZON PROJECT CLICK
     
         $('.project-bubble').click(function() {
+            $("#in").css({"margin-top":"5vw", "left":"8vw"});
+
             $("#in").appendTo("#body");
             $('.project-amazon').addClass('scene-element');
             $('.project-amazon').addClass('scene-animation');
@@ -395,345 +226,39 @@ $(document).ready(function(){
             $('.amazon-img').css({"opacity":"0"});
             $('.project-bubble-right').css({"opacity":"0"});
             setTimeout(function(){
-                window.location.href='test.html'
+                window.location.href='amazon_echo.html'
             },1000);
             setTimeout(function(){ 
-               {$("html,body").animate({scrollTop:$(".background").offset().top},"0");return false};
+               {$("html,body").animate({scrollTop:$(".banner").offset().top},"0");return false};
             },100);
         });
-
-// , 2000, function() {
-//              window.location.href = "test.html";
-//            });   
-//            $('.project-bubble').click(function(){
-//                $('.project-bubble').addClass('active');
-//                $('.project-bubble-wrap').addClass('scene-element');
-//                $('.project-bubble-wrap').addClass('scene-animation');
-//                $(this).addClass('no-hover');
-//            });
-//            $('.project-bubble').click(function(){
-//                setTimeout(function(){
-//                    {$("html,body").animate({scrollTop:$(".background").offset().top},"0");return false};
-//                },300);
-//            });
-//    
-//    
-//    
-//            $('.project-bubble').click(function(){
-//                $('.background').css({"display":"none"});
-//            }); 
-//            $('.project-bubble').click(function(){
-//                $('.amazon-project-content').addClass('active');
-//                $('.projects-wrap').addClass('active');
-//            });
-//            $('.project-bubble').click(function(){
-//                $('.amazon-img').addClass('active');
-//            }); 
-//            $('.project-bubble').click(function(){
-//                $('.home-buttons').css({"display":"none"});
-//            }); 
-//            $('.project-bubble').click(function(){
-//                $('.amazon-mockup').css({"visibility":"visible"});
-//                $('.amazon-mockup').css({"opacity":"1"});
-//            }); 
-//            $('.project-bubble').click(function(){
-//                $('.back-button').css({"visibility":"visible"});
-//                $('.back-button').css({"opacity":"1"});
-//            }); 
-//            $('.project-bubble').click(function(){
-//                $('.project-bubble2').css({"display":"none"});
-//                $('.project-bubble3').css({"display":"none"});
-//            }); 
-//            
-
     
-
-    // MUSEUM PROJECT CLICK
-            $('.project-bubble2').click(function(){
-                $('.project-bubble2').addClass('active');
-                    $(this).addClass('no-hover');
-            });
-            $('.project-bubble2').click(function(){
-                setTimeout(function(){
-                    {$("html,body").animate({scrollTop:$(".background").offset().top},"0");return false};
-                },300);
-            });
+    // INMUSEUM PROJECT CLICK
     
-    
-    
-            $('.project-bubble2').click(function(){
-                $('.background').css({"display":"none"});
-            }); 
-            $('.project-bubble2').click(function(){
-                $('.museum-project-content').addClass('active');
-                $('.projects-wrap').addClass('active');
-            });
-            $('.project-bubble2').click(function(){
-                $('.museum-img').addClass('active');
-            }); 
-            $('.project-bubble2').click(function(){
-                $('.home-buttons').css({"display":"none"});
-            }); 
-//            $('.project-bubble').click(function(){
-//                $('.amazon-mockup').css({"visibility":"visible"});
-//                $('.amazon-mockup').css({"opacity":"1"});
-//            }); 
-            $('.project-bubble2').click(function(){
-                $('.back-button').css({"visibility":"visible"});
-                $('.back-button').css({"opacity":"1"});
-            }); 
-            $('.project-bubble2').click(function(){
-                $('.project-bubble').css({"display":"none"});
-                $('.project-bubble3').css({"display":"none"});
-            }); 
-    
-    // PROJECT HTML LOAD 
-            $(function(){
-//                $("#amazon_content").load("amazon.html");
-//                $("#museum_content").load("museum.html"); 
-//                $("#amazon_content").load("amazon.html"); 
-//                $("#amazon_content").load("amazon.html"); 
-            });
-    
-    // BACK BUTTON CLICK
-            $('.back-button').click(function(){
-                $('.background').css({"display":"block"});
-                setTimeout(function(){
-                    {$("html,body").animate({scrollTop:$(".projects-wrap").offset().top},"500");return false};
-                },0);
-                
-                // Amazon return
-                $('.project-bubble').removeClass('active');
-                $('.project-bubble').removeClass('no-hover');
-                $('.amazon-project-content').removeClass('active');
-                $('.amazon-img').removeClass('active');
-                $('.amazon-mockup').css({"opacity":"0"});
-                setTimeout(function(){
-                $('.amazon-mockup').css({"visibility":"hidden"});
-                },300);
-                
-                // Museum return
-                $('.project-bubble2').removeClass('active');
-                $('.project-bubble2').removeClass('no-hover');
-                $('.museum-img').removeClass('active');
-                $('.home-buttons').css({"display":"block"});
-                $('.back-button').css({"visibility":"hidden"});
-                $('.museum-project-content').removeClass('active');
-                
-                
-                $('.project-bubble').css({"display":"inline-block"});
-                $('.project-bubble2').css({"display":"inline-block"});
-                $('.project-bubble3').css({"display":"inline-block"});
-//             
-            }); 
-    
-    
-                
-//            $('.project-bubble').click(function(){
-//                $('.projects-wrap').css({"padding":"0"});
-//            }); 
-
-// GRAPH YEAR CLICK
-            $('.year2').click(function(){
-                $('.pieSlice1, .pieSlice2, .pieSlice3, .pieSlice4, .amazon-bar, .google-bar, .other-bar, .bottom-bar').addClass('active');
-            });
-            $('.year1').click(function(){
-                $('.pieSlice1, .pieSlice2, .pieSlice3, .pieSlice4, .amazon-bar, .google-bar, .other-bar, .bottom-bar').removeClass('active');
-            });
+        $('.project-bubble-right').click(function() {
+            $("#in-right").css({"margin-top":"5vw", "right":"8vw"});
+            $("#in-right").appendTo("#body");
+            $('.project-inmuseum').addClass('scene-element');
+            $('.project-inmuseum').addClass('scene-animation-right');
+            $('.project-right-wrap-museum').addClass('scene-element');
+            $('.project-right-wrap-museum').addClass('scene-animation-right-top');
+            $('.project-inmuseum').addClass('no-hover');
+            $('.museum-img').css({"opacity":"0"});
+            $('.project-bubble').css({"opacity":"0"});
+//            setTimeout(function(){
+//                window.location.href=''
+//            },1000);
+            setTimeout(function(){ 
+               {$("html,body").animate({scrollTop:$(".banner").offset().top},"0");return false};
+            },100);
+        });
 });
-        
-// color changer        
-        $(document).ready(function() {
-            var colors = ["indianred", "lightsteelblue", "#6CD77E", "#F0C68E", "#B480D2", "#A3DCC7"];
-            var rand = Math.floor(Math.random() * colors.length);
-            $('.loader-section, .intro-wrap').css("background-color", colors[rand]);
-            $('.contact-text-wrap, .info-title').css("color", colors[rand]);
-            
-        });
-        
-// fade in nav text script        
-        $(document).ready(function(){
-           $(window).scroll(function(){
-               if($(window).scrollTop() > 0){
-                   $(".nav-wrapper").css({"background-color":"white"});
-                   $(".nav-wrapper").css({"top":"0px"});
-               }
-               else {
-                   $(".nav-wrapper").css({"background-color":"transparent"});
-                   $(".nav-wrapper").css({"top":"20px"});
-               }
-           });
-        });
-        
-        $(document).ready(function(){
-            $('.menu').click(function(){
-                $('.nav').toggleClass('active');
-                console.log('toggling');
-            });
-        });
-
-// DRAG SCROLL
-//   const slider = document.querySelector('.wireframe-back');
-//        let isDown = false;
-//        let startX;
-//        let scrollLeft;
-//        
-//        slider.addEventListener('mousedown', (e) => {
-//            isDown = true;
-//            slider.classList.add('active');
-//            $(".wireframe").addClass('active');
-//            startX = e.pageX - slider.offsetLeft;
-//            scrollLeft = slider.scrollLeft;
-//        });
-//        
-//        slider.addEventListener('mouseleave', () => {
-//            isDown = false;
-//            slider.classList.remove('active');
-//            $(".wireframe").removeClass('active');
-//        });
-//        
-//        slider.addEventListener('mouseup', () => {
-//            isDown = false;
-//            slider.classList.remove('active');
-//            $(".wireframe").removeClass('active');
-//        });
-//        
-//        slider.addEventListener('mousemove', (e) => {
-//            if (!isDown) return; // stop fn from running
-//            e.preventDefault();
-//            const x = e.pageX - slider.offsetLeft;
-//            console.log({x, startX});
-//            const walk = (x - startX);
-//            slider.scrollLeft = scrollLeft - walk;
-//        });
-        
-        
 
         
-// hamburger menu script
-        $(document).ready(function(){
-            $('.hamburger').click(function(){
-                $('.menu-button').toggleClass('active');
-            }); 
-            $('.hamburger').click(function(){
-                $('.nav').toggleClass('active');
-            }); 
-            $('.hamburger').click(function(){
-                $('.nav-wrapper').toggleClass('active');
-            }); 
-        });
-        $(document).ready(function(){
-            $('.about').click(function(){
-                $('.menu-button').removeClass('active');
-                $('.nav').removeClass('active');
-                $('.nav-wrapper').removeClass('active');
-            }); 
-            $('.projects').click(function(){
-                $('.menu-button').removeClass('active');
-                $('.nav').removeClass('active');
-                $('.nav-wrapper').removeClass('active');
-            }); 
-            $('.contact').click(function(){
-                $('.menu-button').removeClass('active');
-                $('.nav').removeClass('active');
-                $('.nav-wrapper').removeClass('active');
-            }); 
-        });
-// smooth scroll script
-        $('a[href*="#"]')
-         // Remove links that don't actually link to anything
-         .not('[href="#"]')
-         .not('[href="#0"]')
-         .click(function(event) {
-           // On-page links
-           if (
-             location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-             &&
-             location.hostname == this.hostname
-           ) {
-             // Figure out element to scroll to
-             var target = $(this.hash);
-             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-             // Does a scroll target exist?
-             if (target.length) {
-               // Only prevent default if animation is actually gonna happen
-               event.preventDefault();
-               $('html, body').animate({
-                 scrollTop: target.offset().top
-               }, 700, function() {
-                 // Callback after animation
-                 // Must change focus!
-                 var $target = $(target);
-                 $target.focus();
-                 if ($target.is(":focus")) { // Checking if the target was focused
-                   return false;
-                 } else {
-                   $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                   $target.focus(); // Set focus again
-                 };
-               });
-             }
-            }
-//            $(window).scroll(function() {
-//                  var scroll = $(window).scrollTop();
-//                  $(".intro-img.animated").css("transform","translateY(" +  (scroll/5)  + "px)");
-//                 $(".about-content").css("transform","translateY(" +  (scroll/10)  + "px)");
-//                 $(".intro-image.animated").css("transform","translateY(" +  (scroll/4)  + "px)");
-//                });
-             });
-//animate on scroll script
-$(function() {
-
-  var $window           = $(window),
-      win_height_padded = $window.height() * 1.1,
-      isTouch           = Modernizr.touch;
-
-  if (isTouch) { $('.revealOnScroll').addClass('animated'); }
-
-  $window.on('scroll', revealOnScroll);
-
-  function revealOnScroll() {
-    var scrolled = $window.scrollTop(),
-        win_height_padded = $window.height() * 1.1;
-
-    // Showed...
-    $(".revealOnScroll:not(.animated)").each(function () {
-      var $this     = $(this),
-          offsetTop = $this.offset().top;
-
-      if (scrolled + win_height_padded > offsetTop) {
-        if ($this.data('timeout')) {
-          window.setTimeout(function(){
-            $this.addClass('animated ' + $this.data('animation'));
-          }, parseInt($this.data('timeout'),10));
-        } else {
-          $this.addClass('animated ' + $this.data('animation'));
-        }
-      }
-    });
-    // Hidden...
-   $(".revealOnScroll.animated").each(function (index) {
-      var $this     = $(this),
-          offsetTop = $this.offset().top;
-      if (scrolled + win_height_padded < offsetTop) {
-        $(this).removeClass('animated fadeInUp')
-      }
-    });
-  }
-
 // SMOOTH STATE 
 $(function() {
   $('#main').smoothState();
-});
-    
-  revealOnScroll();
-});
-
-// Scroll Top Script
-        $(document).ready(function(){
-            $(this).scrollTop(0);
-        });
-        
+}); 
         
         
         

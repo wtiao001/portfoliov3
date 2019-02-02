@@ -18,6 +18,8 @@ outline: none;
 
 
 /* HEADER */
+/* HEADER */
+
 /* navigation */
 .nav-wrapper {
     position: fixed;
@@ -43,25 +45,24 @@ outline: none;
     text-align: left;
 }
 
-
 /* hamburger menu */
 .hamburger {
     padding: 0;
     margin: 0;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     display: none;
     position: relative;
     margin-top: 8px;
 }
 .menu-button {
     position: absolute;
-    width: 30px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     top: 50%;
     left: 15%;
-    background: #C1C1C1;
+    background: #bfb1af;
     border-radius: 1px;
     transition: all .3s ease;
 }
@@ -72,15 +73,15 @@ outline: none;
     position: absolute;
     width: 30px;
     height: 4px;
-    background: #C1C1C1;
+    background: #bfb1af;
     border-radius: 1px;
     transition: all .5s ease;
 }
 .menu-button:before {
-    top: -10px;
+    top: -5px;
 }
 .menu-button:after {
-    top: 10px;
+    top: 5px;
 }
 .menu-button.active {
     background: rgba(0,0,0,0);
@@ -95,7 +96,7 @@ outline: none;
 }
 
 
-
+/* home button */
 .home-wrap {
     position: relative;
     display: inline-block;
@@ -107,51 +108,21 @@ outline: none;
     display: inline-block;
     font-family: 'Bree serif', sans-serif;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 35px;
     color: #C1C1C1;
     text-align: left;
     margin: 0;
     padding: 0;
     transition: color 0.3s ease;   
 }
-.home2 {
-    position: relative;
+.home-2 {
     display: none;
-    font-family: 'Bree serif', sans-serif;
-    text-decoration: none;
-    font-size: 40px;
-    color: #C1C1C1;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    transition: color 0.3s ease;   
 }
 .home:hover {
-    color: black
-}
-.home2:hover {
-    color: black
+    color: #303030;
 }
 
-.back-button {
-    position: absolute;
-    top: -5px;
-    font-family: 'Bree serif', sans-serif;
-    text-decoration: none;
-    font-size: 30px;
-    color: #C1C1C1;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    opacity: 1;
-    visibility: hidden;
-    transition: color 0.3s ease, opacity 0.3s ease; 
-    cursor: pointer;
-}
-.back-button:hover {
-    color: black;
-}
-
+/* menu items */
 .nav {
     position: relative;
     display: inline-block;
@@ -160,68 +131,20 @@ outline: none;
     float: right;
     margin-top: 10px;
 }
-.about {
-    position: relative;
+.nav-item {
     display: inline-block;
+    margin-left: 1vw;
     padding-left: 2vw;
     font-family: 'Bree serif', sans-serif;
+    font-size: 25px;
     text-decoration: none;
-    font-size: 27px;
-    margin-left: 1vw;
     color: #C1C1C1;
+/*    color: #bfb1af;*/
     opacity: 1;
-    transition: opacity 0.5s ease, color .3s ease; 
+    transition: opacity .5s ease, color .3s ease; 
 }
-.about:hover {
-    color: black;
-}
-
-.projects {
-    position: relative;
-    display: inline-block;
-    padding-left: 2vw;
-    font-family: 'Bree serif', sans-serif;
-    text-decoration: none;
-    font-size: 27px;
-    margin-left: 1vw;
-    color: #C1C1C1;
-    opacity: 1;
-    transition: opacity 0.5s ease, color 0.3s ease;   
-}
-.projects:hover {
-    color: black;
-}
-
-.contact {
-    position: relative;
-    display: inline-block;
-    padding-left: 2vw;
-    font-family: 'Bree serif', sans-serif;
-    text-decoration: none;
-    font-size: 27px;
-    margin-left: 1vw;
-    color: #C1C1C1;
-    opacity: 1;
-    transition: opacity 0.5s ease, color 0.3s ease;   
-}
-.contact:hover {
-    color: black;
-}
-
-.resume {
-    position: relative;
-    display: inline-block;
-    padding-left: 2vw;
-    font-family: 'Bree serif', sans-serif;
-    text-decoration: none;
-    font-size: 27px;
-    margin-left: 1vw;
-    color: #C1C1C1;
-    opacity: 1;
-    transition: opacity 0.5s ease, color 0.3s ease;   
-}
-.resume:hover {
-    color: black;
+.nav-item:hover {
+    color: #303030;
 }
 
 
@@ -328,11 +251,11 @@ outline: none;
 
 
 .test-wrap {
-    height: 30000px;
+    height: 3000px;
 }
 .test {
     background-color: #00a8cf;
-    height: 35vw;
+    height: 55vh;
     max-width: 100%;
 }
 
