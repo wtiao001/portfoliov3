@@ -13,34 +13,8 @@ outline: none;
 }
 
 
-.info-header {
-    font-family: 'Bree Serif', sans-serif;
-    font-size: 35px;
-    color: #00a8cf;    
-}
-h1 {
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-    color: dimgrey;
-}
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: dimgrey;
-}
-h3 {
-    font-family: 'Open sans', sans-serif;
-    font-size: 20px;
-    color: #939292;
-    font-weight: 400;
-}
-p {
-    font-family: 'Open sans', sans-serif;
-    font-size: 12px;
-    color: #939292;
-}
+
+
 
 
 /* HEADER */
@@ -164,6 +138,7 @@ p {
     font-size: 25px;
     text-decoration: none;
     color: #C1C1C1;
+/*    color: #bfb1af;*/
     opacity: 1;
     transition: opacity .5s ease, color .3s ease; 
 }
@@ -174,112 +149,10 @@ p {
 
 
 
-/* BODY CONTENT */
-
-/* INTRO CONTENT */
-.banner {
-    position: relative;
-    background-color: #00a8cf;
-    height: 63vh;
-    width: 100vw;
-    max-width: 100%;   
-    text-align: center;
-    overflow-y: hidden;
-}
-.img-up {
-    position: absolute;
-    background-image: url(/images/Amazon/echo_mockup2-01.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    opacity: 0;
-    transform: translateY(100px);
-    transition: opacity .7s ease, transform 1s ease; 
-}
-.content-wrap {
-    height: 3000px;
-    text-align: center;
-}
-
-.intro-banner {
-    display: inline-block;
-    padding: 4vw;
-    width: 70vw;
-    max-width: 850px;
-}
-
-/* TITLE ANIMATION */
-.info-header-wrap {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    text-align: left;
-}
-.info-header {
-    position: relative;
-    color: white;
-    transition: color .5s ease;
-}
-.info-header-block {
-    position: absolute;
-    top: 0;
-    width: 0;
-    height: 40px;
-    transform: translateX(0);
-    background: #00a8cf;
-    transition: width .5s ease-in, transform .3s ease;
-}
-.info-header-animated {
-    animation-name: headerAnimation;
-    animation-duration: .8s;
-}
-@keyframes headerAnimation {
-    0% {
-        width: 0;
-        transform: translateX(0);
-    }
-    60% {
-        width: 370px;
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(371px);    
-    }
-}
-
-.info-content {
-    margin-top: 15px;
-    text-align: left;
-}
-
-.trio-wrap {
-    display: flex;
-    margin-top: 30px;
-}
-.trio-left {
-    display: inline-block;
-    width: 50%;
-    min-width: 300px;
-    padding: 10px
-}
-.trio {
-    text-align: left;
-    margin-top: 15px;
-}
-.trio-content li{
-    list-style-type: none;
-}
 
 
-/* PART 1  CONTENT */
-.project-part1-wrap {
-    width: 100%;
-    height: 500px;
-    background: #d3ebf1;
-}
+
+
 
 
 
@@ -297,27 +170,9 @@ p {
 }
 
 @media screen and (max-width: 960px) {
-    .img-up {
-        width: 100%;
-        height: 90%;
-    }
+
 }
 @media screen and (max-width: 850px) {
-    
-    .info-header {
-        font-size: 30px;
-    }
-    h2 {
-        font-size: 16px;
-    }
-    h3 {
-        font-size: 16px;
-    }
-    p {
-        font-family: 'Open sans', sans-serif;
-        font-size: 12px;
-        color: #939292;
-    }
     .hamburger {
         display: inline-block;
         float: right;
@@ -375,19 +230,6 @@ p {
     .nav-wrapper.active {
         height: 225px;
     }
-    
-    .intro-banner {
-        width: 90vw;
-    }
-    .trio-wrap {
-        display: block;
-    }
-    .trio-left {
-        display: block;
-        width: 100%;
-        min-width: none;
-        padding: 0;
-    }
 }
 
 
@@ -400,24 +242,21 @@ p {
         position: relative;
         display: none;  
     }
-    .home-2 {
+    .home2 {
         position: relative;
         display: inline-block;  
-    }
-    .img-up {
-        position: absolute;
-        background-image: url(/images/Amazon/echo_mockup2-01.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 60%;
-        width: 100%;
-        top: 25%;
     }
 }
 
 
-
+.test-wrap {
+    height: 3000px;
+}
+.test {
+    background-image: url(/images/museum_back.png);
+    height: 55vh;
+    max-width: 100%;
+}
 
 
 

@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/amazon_project.css">
+        <link href='/fonts/gotham/gotham_font.css' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Slab|Open+Sans|Anton" rel="stylesheet">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
@@ -34,17 +35,55 @@
                     </div>
                 </div>
             </div>    
-        <div class="test scene-element">
-                
+        <div class="banner scene-element">
+            <div class="img-up"></div>         
         </div>
         <div class="scene-element">
-           <div class="test-wrap">
-            
-            </div>
-       </div>
-       
-        </div> 
-            
+           <div class="content-wrap">
+               <div class="intro-banner">
+                  <div class="info-wrap">
+                     <div class="info-header-wrap">
+                         <div class="info-header">
+                            Amazon Echo Microsite
+                             <div class="info-header-block"></div>
+                         </div>
+                     </div>
+
+                      <h3 class="info-content">This newly designed micro-site provides a more user friendly way to learn about the Amazon Echo product line and provides an organized resource for existing Echo owners to learn more about what their Alexa enabled device is capable of.</h3>
+                  </div>
+                   <div class="trio-wrap">
+                       <div class="trio-left">
+                           <div class="trio">
+                               <h2 class="trio-header">Team</h2>
+                               <h3 class="trio-content">
+                                   Willis Tiao, Sahar Abdizadeh, Son Tran
+                               </h3>
+                           </div>
+                           <div class="trio">
+                               <h2 class="trio-header">Duration</h2>
+                               <h3 class="trio-content">2 weeks</h3>
+                           </div>
+                       </div>
+                       <div class="trio-left">
+                           <div class="trio">
+                               <h2 class="trio-header">Role</h2>
+                               <h3 class="trio-content">Front End Dev, User Research, Design</h3>
+                           </div>
+                           <div class="trio">
+                               <h2 class="trio-header">Software</h2>
+                               <h3 class="trio-content">
+                                   HTML/CSS, JavaScript, Invision, Illustrator, Photoshop
+                               </h3>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="project-part1-wrap">
+                       
+               </div>     
+           </div>
+        </div>
+    </div> 
     </body>
     
     <script src="javascript/header.js" type="text/javascript"></script>
@@ -57,10 +96,28 @@ $(function() {
   $('#main').smoothState();
 });
                
-// Scroll Top Script
+// Scroll Top Script & Load Script
         $(document).ready(function(){
             $(this).scrollTop(0);
         });
+        $(window).on("load", function(){
+            setTimeout(function(){
+                $('.img-up').css({"opacity":"1", "transform":"translateY(0)"});
+            });
+            setTimeout(function(){
+                $('.info-header-block').addClass("info-header-animated");
+            });
+//            setTimeout(function(){
+//                $('.info-header-block').css({"width":"370px"});
+//            },300);
+//            setTimeout(function(){
+//                $('.info-header-block').css({"transform":"translateX(371px)"});
+//            },1300);
+             setTimeout(function(){
+                $('.info-header').css({"color":"#00a8cf"});
+            },1000);    
+        });
+        
         
     </script>
 </html>

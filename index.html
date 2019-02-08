@@ -203,7 +203,7 @@ $(document).ready(function(){
     $("html,body").animate({scrollTop: 0});
        
     setTimeout(function(){
-        $('.home-wrap, .nav-item').css({"opacity":"1"});
+        $('.home-wrap, .topnav').css({"opacity":"1"});
     },1000);
     setTimeout(function(){
         $('.banner').css({"opacity":"1"});
@@ -224,7 +224,7 @@ $(document).ready(function(){
             $('.project-amazon').addClass('scene-animation');
             $('.project-amazon').addClass('no-hover');
             $('.amazon-img').css({"opacity":"0"});
-            $('.project-bubble-right').css({"opacity":"0"});
+            $('.project-bubble-right, .ikea, .rage, .banner-text-wrap').css({"opacity":"0"});
             setTimeout(function(){
                 window.location.href='amazon_echo.html'
             },1000);
@@ -245,9 +245,9 @@ $(document).ready(function(){
             $('.project-inmuseum').addClass('no-hover');
             $('.museum-img').css({"opacity":"0"});
             $('.project-bubble').css({"opacity":"0"});
-//            setTimeout(function(){
-//                window.location.href=''
-//            },1000);
+            setTimeout(function(){
+                window.location.href='inmuseum.html'
+            },1000);
             setTimeout(function(){ 
                {$("html,body").animate({scrollTop:$(".banner").offset().top},"0");return false};
             },100);
