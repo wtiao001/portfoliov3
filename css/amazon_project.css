@@ -306,6 +306,27 @@ p {
     vertical-align: top;
 }
 
+
+/* PART 2 */
+.part2 {
+    margin-top: 20px;
+    background: #efefef;
+}
+.ideation {
+    display: inline-block;
+    width: 40%;
+    padding: 4%;
+    vertical-align: middle;
+}
+.objectives {
+    font-family: 'Open sans', sans-serif;
+    font-size: 20px;
+    color: dimgrey;
+    font-weight: 600;    
+}
+.objectives li {
+    margin-top: 10px;
+}
 @media screen and (min-width: 1320px) {
 
 
@@ -427,6 +448,13 @@ p {
     }
     .problem-statement {
         font-size: 20px;
+    }
+    .ideation {
+        margin-top: 30px;
+        width: 96%;
+        display: block;
+        padding: 0;
+        padding-left: 4%;
     }
 }
 
