@@ -327,6 +327,19 @@ p {
 .objectives li {
     margin-top: 10px;
 }
+.screens {
+    width: 100%;
+    max-width: 700px;
+    margin: 50px 0;
+    box-shadow: -10px 10px 30px 2px #42a3ba;
+}
+.screens-content {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    color: white;
+    max-width: 700px;
+}
 @media screen and (min-width: 1320px) {
 
 
