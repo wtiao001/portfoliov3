@@ -18,7 +18,7 @@ outline: none;
     font-size: 45px;
     text-align: left;
 /*    color: #cbcbcb;    */
-    color: #64c3d9;
+    color: #feca16;
 }
 h1 {
     font-family: 'Roboto Slab', sans-serif;
@@ -181,7 +181,7 @@ p {
 /* INTRO CONTENT */
 .banner {
     position: relative;
-    background-color: #00a8cf;
+    background-color: #ffdd1f;
     height: 63vh;
     width: 100vw;
     max-width: 100%;   
@@ -202,6 +202,7 @@ p {
     transition: opacity .7s ease, transform 1s ease; 
 }
 .content-wrap {
+    height: 3000px;
     text-align: center;
 }
 
@@ -231,9 +232,9 @@ p {
     position: absolute;
     top: 0;
     width: 0;
-    height: 59px;
+    height: 60px;
     transform: translateX(0);
-    background: #e0b3b3;
+    background: #ffdd1f;
     transition: width .5s ease-in, transform .3s ease;
 }
 .info-header-animated {
@@ -246,11 +247,11 @@ p {
         transform: translateX(0);
     }
     60% {
-        width: 475px;
+        width: 630px;
         transform: translateX(0);
     }
     100% {
-        transform: translateX(475px);    
+        transform: translateX(630px);    
     }
 }
 
@@ -281,13 +282,11 @@ p {
 /* PART 1  CONTENT */
 .project-part1-wrap {
     width: 100%;
-    padding: 50px 0;
-    background: #c55c5c;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background: #feca16;
 /*    background: #c1e3e9;*/
 /*    background: #f0fafc;*/
-}
-.project-part1-wrap-temp {
-    background: #e5e4e5;
 }
 .part1 {
     color: white;
@@ -299,6 +298,21 @@ p {
     font-family: 'Roboto Slab', sans-serif;
     font-size: 28px;
     border-left: 2px solid white;
+}
+.notes {
+    width: 80%;
+}
+.sketches {
+    display: inline-block;
+    width: 80%;
+    padding: 30px 0;
+}
+.sketches.lofi {
+    width: 100%;
+}
+.img-wrap {
+    width: 100%;
+    text-align: center;
 }
 .interview-quote{
     display: inline-block;
@@ -582,18 +596,4 @@ p {
 .revealOnScroll {
     opacity: 0;
 }
-
-
-
-.test-wrap {
-    height: 3000px;
-}
-.test {
-    background-image: url(/images/museum_back.png);
-    height: 55vh;
-    max-width: 100%;
-}
-
-
-
 
