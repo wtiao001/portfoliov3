@@ -202,7 +202,6 @@ p {
     transition: opacity .7s ease, transform 1s ease; 
 }
 .content-wrap {
-    height: 3000px;
     text-align: center;
 }
 

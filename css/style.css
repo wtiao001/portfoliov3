@@ -4,6 +4,7 @@
 }
 body {
     padding: 0;
+    padding-bottom: 50px;
     margin: 0;
     overflow-x: hidden;
 }
@@ -353,6 +354,7 @@ outline: none;
     left: 0;
     top: 0;
 }
+
 /*
 .project-bubble.project-amazon.active {
     transition: width .3s .5s ease, transform .5s .5s cubic-bezier(0.645, 0.045, 0.355, 1.000), height .5s ease;
@@ -405,6 +407,9 @@ outline: none;
     opacity: 0;
     transition: transform .1s ease, opacity .5s ease;
 }
+.bubble-text-wrap.ik {
+    width: 32vw;
+}
 .bubble-text-2 {
     font-size: 2vw;
     font-family: 'Open sans', sans-serif;
@@ -416,6 +421,10 @@ outline: none;
     height: 110%;
     left: -5%;
     transition: all .3s ease;
+}
+.ikea-img {
+    width: 95%;
+    
 }
 .amazon-img.active {
     opacity: 0;
@@ -470,7 +479,6 @@ outline: none;
     position: relative;
     height: 130%;
     transition: all .3s ease;
-    left: -15%;
     z-index: 2;
     opacity: 1;
 }
@@ -488,11 +496,29 @@ outline: none;
     top: 25%;
 }
 .project-bubble-right:not(.no-hover):hover .museum-img{
-    height: 110%;
-    left: 100px;
-    left: -15%;
+    height: 120%;
 }
-
+.project-bubble-right.eastend:not(.no-hover) .ee-img{
+    width: 90%;
+    margin-top: 11%;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+.project-bubble-right.eastend:not(.no-hover):hover .ee-img{
+    opacity: 0;
+}
+.project-bubble-right.eastend:not(.no-hover) .ee-vid-wrap{
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+.project-bubble-right.eastend:not(.no-hover):hover .ee-vid-wrap{
+    opacity: .8;
+}
+.ee-vid-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 @keyframes pageTransition {
     0% {
         transform: scale(1);
@@ -602,7 +628,9 @@ outline: none;
 .bubble-text-22 {
     font-size: 2vw;
     font-family: 'Open Sans', sans-serif;
-    color: #AF5656;
+/*    color: #AF5656;*/
+    color: white;
+    opacity: .9;
     width: 550px;
 }
 .museum-project-content {
@@ -620,14 +648,23 @@ outline: none;
     opacity: 1;
     display: block;
 }
-
+.project-inmuseum {
+    background: #c55c5c;
+}
 .ikea {
     background: #ffdd1f;
 }
-.rage {
-    background: #68080C;
+.eastend {
+    background: black;
 }
- 
+.bubble-text-22.ee {
+    color: white;
+    opacity: .8;
+}
+
+.project-bubble-right.eastend:not(.no-hover):hover  .vid-preview{
+    opacity: 1;
+}
 .about-content-2 {
     margin-top: 20px;
 }
@@ -907,6 +944,8 @@ outline: none;
     .bubble-text-wrap2 {
         opacity: 1;
         top: 25%;
+        font-size: 27px;
+        width: 50vw;
     }
     .bubble-text-22 {
         width: 40vw;
@@ -916,6 +955,9 @@ outline: none;
     }
     .project-bubble-right:not(.no-hover):hover .museum-img{
         transform: scale(.96);
+    }
+    .bubble-text-22.ee {
+        width: 35vw;
     }
 
     .profile-img {
@@ -944,6 +986,9 @@ outline: none;
         font-size: .95em;
         width: 100%;
     }
+    .contact-text {
+        font-size: 2.2vw;
+    }
 }
 @media screen and (max-width: 700px) {
     .text-4{
@@ -951,6 +996,12 @@ outline: none;
     }
     .text-1 {
         margin-bottom: 30px;
+    }
+    .contact-text {
+        font-size: 15px;
+    }
+    .email-bold {
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 550px) {
@@ -1018,9 +1069,7 @@ outline: none;
         margin-top: -4px;
     }
     .museum-img {
-        height: 100%;
-        right: 0;
-        left: 0;
+        width: 100%;
     }
     .project-bubble-right:not(.no-hover):hover {
         transform: scale(1);
@@ -1032,9 +1081,7 @@ outline: none;
         top: 25%;
     }
     .project-bubble-right:not(.no-hover):hover .museum-img{
-        height: 110%;
-        left: 100px;
-        left: -5%;
+
     }
     
     @keyframes pageTransitionRightTop {

@@ -190,13 +190,14 @@ p {
 }
 .img-up {
     position: absolute;
-    background-image: url(/images/Amazon/echo_mockup2-01.png);
+    background-image: url(/images/Ikea/ikea_img_up.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
     width: 100%;
     bottom: 0;
+    top: 5%;
     opacity: 0;
     transform: translateY(100px);
     transition: opacity .7s ease, transform 1s ease; 
