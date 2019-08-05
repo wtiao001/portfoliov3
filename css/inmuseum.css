@@ -233,7 +233,7 @@ p {
     width: 0;
     height: 59px;
     transform: translateX(0);
-    background: #e0b3b3;
+    background: #c55c5c;
     transition: width .5s ease-in, transform .3s ease;
 }
 .info-header-animated {
